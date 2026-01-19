@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.madgique.map_without_stopping.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "minVersion": "0.8",
+  "client": [
+    "KeyboardHandlerMixin",
+    "MinecraftMixin"
+  ],
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
