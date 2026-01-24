@@ -50,6 +50,7 @@ jobs:
 
           java: 21
           modrinth-featured: true
+          curseforge-client-side: required
           curseforge-server-side: unsupported
 
           changelog-file: CHANGELOG.md
@@ -76,6 +77,7 @@ jobs:
 
           java: 21
           modrinth-featured: true
+          curseforge-client-side: required
           curseforge-server-side: unsupported
 
           changelog-file: CHANGELOG.md
