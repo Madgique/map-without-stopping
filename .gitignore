@@ -20,6 +20,7 @@ bin/
 # Compiled files
 *.class
 *.jar
+!gradle/wrapper/gradle-wrapper.jar
 *.war
 
 # OS files
