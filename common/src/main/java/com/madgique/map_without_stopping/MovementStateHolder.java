@@ -31,7 +31,7 @@ public class MovementStateHolder {
         // Laissé pour compatibilité avec MinecraftMixin, mais la logique est dans updateInput()
     }
 
-    private boolean isKeyPhysicallyPressed(KeyMapping keyMapping, long window) {
+    public boolean isKeyPhysicallyPressed(KeyMapping keyMapping, long window) {
         InputConstants.Key boundKey = InputConstants.getKey(keyMapping.saveString());
 
         if (boundKey.getType() == InputConstants.Type.KEYSYM) {
