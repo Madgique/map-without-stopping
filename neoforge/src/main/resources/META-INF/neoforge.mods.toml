@@ -1,6 +1,6 @@
 modLoader = "javafml"
 loaderVersion = "[4,)"
-license = "MIT"
+license = "LGPLv3"
 
 [[mods]]
 modId = "map_without_stopping"

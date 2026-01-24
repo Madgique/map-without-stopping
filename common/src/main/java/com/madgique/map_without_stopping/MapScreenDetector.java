@@ -1,6 +1,7 @@
 package com.madgique.map_without_stopping;
 
 import net.minecraft.client.gui.screens.Screen;
+
 import java.util.List;
 
 public class MapScreenDetector {

@@ -10,7 +10,7 @@
   "contact": {
     "sources": "https://github.com/Madgique/map-without-stopping"
   },
-  "license": "MIT",
+  "license": "LGPL-3.0-only",
   "icon": "assets/map_without_stopping/icon.png",
   "environment": "client",
   "mixins": [
