@@ -14,7 +14,7 @@ public class KeyboardInputMixin {
         method = "tick",
         at = @At("TAIL")
     )
-    private void afterTick(boolean isSneaking, float sneakSpeed, CallbackInfo ci) {
+    private void afterTick(boolean slowDown, CallbackInfo ci) {
         if (MovementStateHolder.INSTANCE.isMapScreenOpen()) {
             MovementStateHolder.INSTANCE.updateInput((KeyboardInput) (Object) this);
         }

@@ -1,24 +1,23 @@
 {
   "schemaVersion": 1,
-  "id": "map_without_stopping",
-  "version": "${version}",
-  "name": "Map Without Stopping",
-  "description": "Allows you to move while fullscreen maps (JourneyMap, Xaero) are open.",
-  "authors": [
-    "Madgique"
-  ],
+  "id": "${mod_id}",
+  "version": "${mod_version}",
+  "name": "${mod_display_name}",
+  "description": "${mod_description}",
+  "authors": ["${mod_authors}"],
   "contact": {
-    "sources": "https://github.com/Madgique/map-without-stopping"
+    "issues": "${mod_issue_tracker_url}",
+    "sources": "${mod_sources}"
   },
-  "license": "LGPL-3.0-only",
-  "icon": "assets/map_without_stopping/icon.png",
+  "license": "${mod_license}",
+  "icon": "assets/${mod_id}/icon.png",
   "environment": "client",
   "mixins": [
-    "map_without_stopping.mixins.json"
+    "${mod_id}.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.16.0",
-    "minecraft": "~1.21.1",
-    "java": ">=21"
+    "fabricloader": ">=0.14.0",
+    "minecraft": "~1.18.2",
+    "java": ">=17"
   }
 }

@@ -1,6 +1,6 @@
 # Map Without Stopping
 
-A client-side Fabric/NeoForge mod that allows you to move while fullscreen map screens are open (JourneyMap, Xaero's World Map, etc.).
+A client-side Fabric/Forge mod that allows you to move while fullscreen map screens are open (JourneyMap, Xaero's World Map, etc.).
 
 ## The Problem
 
@@ -12,14 +12,15 @@ This mod allows movement inputs to still be processed while these map screens ar
 
 ## Installation
 
-1. Install [Fabric Loader](https://fabricmc.net/) or [NeoForge](https://neoforged.net/) for Minecraft 1.21.1
+1. Install [Fabric Loader](https://fabricmc.net/) or [Forge](https://files.minecraftforge.net/) for Minecraft 1.18.2
 2. Download the mod JAR and place it in your `mods` folder
 3. **Client-side only** - No need to install on the server
 
 ## Compatibility
 
-- Minecraft: 1.21.1
-- Fabric Loader: 0.18.4+ / NeoForge: 21.1+
+- Minecraft: 1.18.2
+- Fabric Loader: 0.14+ / Forge: 40.2+
+- Java: 17
 - Supported maps: JourneyMap, Xaero's World Map
 
 ## Note
@@ -28,4 +29,4 @@ Xaero's World Map pauses the game in singleplayer by design. This mod works with
 
 ## License
 
-MIT License - See [LICENSE](LICENSE) file.
+LGPLv3 License - See [LICENSE](LICENSE) file.
